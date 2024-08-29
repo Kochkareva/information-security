@@ -1,0 +1,11 @@
+D:\Информационная безопасность\IB_LW_1\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+D:\Информационная безопасность\IB_LW_1\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+D:\Информационная безопасность\IB_LW_1\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+D:\Информационная безопасность\IB_LW_1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Информационная безопасность\IB_LW_1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\Информационная безопасность\IB_LW_1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+D:\Информационная безопасность\IB_LW_1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Информационная безопасность\IB_LW_1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+D:\Информационная безопасность\IB_LW_1\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+D:\Информационная безопасность\IB_LW_1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+D:\Информационная безопасность\IB_LW_1\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll

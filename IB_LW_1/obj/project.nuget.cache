@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KqYU9BC4N0fXW1TVwwHGuHPX5RsqzaRd2cIHroq3qHcwE2ggYBBRb16MBUFbrcJyvtZb2Lh/4No2Ml1EGwXE2Q==",
+  "success": true,
+  "projectFilePath": "D:\\Информационная безопасность\\IB_LW_1\\IB_LW_1\\IB_LW_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lissa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Lissa\\.nuget\\packages\\unity\\5.11.10\\unity.5.11.10.nupkg.sha512"
+  ],
+  "logs": []
+}

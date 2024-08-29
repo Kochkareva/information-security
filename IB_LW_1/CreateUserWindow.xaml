@@ -1,0 +1,137 @@
+﻿<Window x:Class="IB_LW_1.CreateUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="CreateUserWindow" Height="576" Width="1372"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Настройка пользователя:" FontFamily="Verdana" FontSize="25" VerticalAlignment="Center" 
+           Margin="40 0 0 0"/>
+        
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Логин:" FontFamily="Verdana" FontSize="15" VerticalAlignment="Center" 
+                   HorizontalAlignment="Right" Margin="0 0 20 0"/>
+        <TextBox x:Name="TextBoxLogin" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" FontSize="15" FontFamily="Candara" VerticalContentAlignment="Center"
+            VerticalAlignment="Stretch" TextWrapping = "NoWrap" Margin="0 15 40 15">
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Минимальная длина пароля:" FontFamily="Verdana" FontSize="15" VerticalAlignment="Center" 
+           HorizontalAlignment="Right" Margin="0 0 20 0"/>
+        <TextBox x:Name="TextBoxMinPasswordLength" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" FontSize="15" FontFamily="Candara" VerticalContentAlignment="Center"
+    VerticalAlignment="Stretch" TextWrapping = "NoWrap" Margin="0 15 40 15" Text="0"
+                 PreviewTextInput="TextBox_PreviewTextInput" >
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Срок действия пароля:" FontFamily="Verdana" FontSize="15" VerticalAlignment="Center" 
+       HorizontalAlignment="Right" Margin="0 0 20 0"/>
+        <TextBox x:Name="TextBoxPasswordExpiration" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" FontSize="15" FontFamily="Candara" VerticalContentAlignment="Center"
+VerticalAlignment="Stretch" TextWrapping = "NoWrap" Margin="0 15 40 15" Text="0"
+                 PreviewTextInput="TextBox_PreviewTextInput" >
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+
+        <CheckBox x:Name="checkBoxBlocking" Grid.Row="4" Grid.Column="1" FontFamily="Verdana" FontSize="15" 
+            IsChecked="False" Content="Блокировка учетной записи" IsThreeState="False" VerticalAlignment="Center"
+            Unchecked="checkBoxBlocking_Unchecked" Checked="checkBoxBlocking_Checked" Margin="0 0 0 0" 
+                  HorizontalAlignment="Center"/>
+
+        <CheckBox x:Name="checkBoxLowercaseLetters" Grid.Row="5" Grid.Column="0" FontFamily="Verdana" FontSize="15" 
+            IsChecked="False" Content="Наличие строчных букв" IsThreeState="False" VerticalAlignment="Center"
+            Unchecked="checkBoxLowercaseLetters_Unchecked" Checked="checkBoxLowercaseLetters_Checked" Margin="0 0 0 0" 
+                  HorizontalAlignment="Center"/>
+
+        <CheckBox x:Name="checkBoxUppercaseLetters" Grid.Row="5" Grid.Column="1" FontFamily="Verdana" FontSize="15" 
+            IsChecked="False" Content="Наличие прописных букв" IsThreeState="False" VerticalAlignment="Center"
+            Unchecked="checkBoxUppercaseLetters_Unchecked" Checked="checkBoxUppercaseLetters_Checked" Margin="0 0 0 0" 
+                  HorizontalAlignment="Center"/>
+
+        <CheckBox x:Name="checkBoxNumbers" Grid.Row="5" Grid.Column="2" FontFamily="Verdana" FontSize="15" 
+            IsChecked="False" Content="Наличие цифр" IsThreeState="False" VerticalAlignment="Center"
+            Unchecked="checkBoxNumbers_Unchecked" Checked="checkBoxNumbers_Checked" Margin="0 0 0 0" 
+                  HorizontalAlignment="Center"/>
+
+        <CheckBox x:Name="checkBoxPunctuationMarks" Grid.Row="5" Grid.Column="4" FontFamily="Verdana" FontSize="15" 
+            IsChecked="False" Content="Наличие знаков препинания" IsThreeState="False" VerticalAlignment="Center"
+            Unchecked="checkBoxPunctuationMarks_Unchecked" Checked="checkBoxPunctuationMarks_Checked" Margin="0 0 0 0" 
+                  HorizontalAlignment="Center"/>
+
+        <Button Grid.Row="6" Grid.Column="1" Click="ButtonSave_Click" Content="Ок" Margin="30 20 30 0">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#303030"/>
+                    <Setter Property="Foreground" Value="#F5FAFC"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <Button Grid.Row="6" Grid.Column="2" Click="ButtonCancel_Click" Content="Отмена" Margin="30 20 30 0">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#303030"/>
+                    <Setter Property="Foreground" Value="#F5FAFC"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Window>

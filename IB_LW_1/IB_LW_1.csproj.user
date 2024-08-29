@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ChangePasswordPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateUserWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FirstEntryWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InfoAboutAppPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UsersAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WorkWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ChangePasswordPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreateUserWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FirstEntryWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InfoAboutAppPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UsersAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WorkWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

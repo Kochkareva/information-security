@@ -1,0 +1,15 @@
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\bin\Debug\net6.0\BusinessLogics.deps.json
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\bin\Debug\net6.0\BusinessLogics.dll
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\bin\Debug\net6.0\BusinessLogics.pdb
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\obj\Debug\net6.0\BusinessLogics.GeneratedMSBuildEditorConfig.editorconfig
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\obj\Debug\net6.0\BusinessLogics.AssemblyInfoInputs.cache
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\obj\Debug\net6.0\BusinessLogics.AssemblyInfo.cs
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\obj\Debug\net6.0\BusinessLogics.csproj.CoreCompileInputs.cache
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\obj\Debug\net6.0\BusinessLogics.dll
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\obj\Debug\net6.0\refint\BusinessLogics.dll
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\obj\Debug\net6.0\BusinessLogics.pdb
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\obj\Debug\net6.0\ref\BusinessLogics.dll
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\bin\Debug\net6.0\Contracts.dll
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\bin\Debug\net6.0\Contracts.pdb
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\obj\Debug\net6.0\BusinessLogics.csproj.AssemblyReference.cache
+D:\Информационная безопасность\IB_LW_1\BusinessLogics\obj\Debug\net6.0\BusinessLogics.csproj.CopyComplete

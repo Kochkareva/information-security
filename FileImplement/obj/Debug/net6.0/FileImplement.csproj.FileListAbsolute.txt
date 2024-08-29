@@ -1,0 +1,15 @@
+D:\Информационная безопасность\IB_LW_1\FileImplement\bin\Debug\net6.0\FileImplement.deps.json
+D:\Информационная безопасность\IB_LW_1\FileImplement\bin\Debug\net6.0\FileImplement.dll
+D:\Информационная безопасность\IB_LW_1\FileImplement\bin\Debug\net6.0\FileImplement.pdb
+D:\Информационная безопасность\IB_LW_1\FileImplement\obj\Debug\net6.0\FileImplement.csproj.AssemblyReference.cache
+D:\Информационная безопасность\IB_LW_1\FileImplement\obj\Debug\net6.0\FileImplement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Информационная безопасность\IB_LW_1\FileImplement\obj\Debug\net6.0\FileImplement.AssemblyInfoInputs.cache
+D:\Информационная безопасность\IB_LW_1\FileImplement\obj\Debug\net6.0\FileImplement.AssemblyInfo.cs
+D:\Информационная безопасность\IB_LW_1\FileImplement\obj\Debug\net6.0\FileImplement.csproj.CoreCompileInputs.cache
+D:\Информационная безопасность\IB_LW_1\FileImplement\obj\Debug\net6.0\FileImplement.csproj.CopyComplete
+D:\Информационная безопасность\IB_LW_1\FileImplement\obj\Debug\net6.0\FileImplement.dll
+D:\Информационная безопасность\IB_LW_1\FileImplement\obj\Debug\net6.0\refint\FileImplement.dll
+D:\Информационная безопасность\IB_LW_1\FileImplement\obj\Debug\net6.0\FileImplement.pdb
+D:\Информационная безопасность\IB_LW_1\FileImplement\obj\Debug\net6.0\ref\FileImplement.dll
+D:\Информационная безопасность\IB_LW_1\FileImplement\bin\Debug\net6.0\Contracts.dll
+D:\Информационная безопасность\IB_LW_1\FileImplement\bin\Debug\net6.0\Contracts.pdb
